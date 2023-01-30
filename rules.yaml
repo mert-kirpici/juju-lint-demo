@@ -3,3 +3,6 @@ config:
     max-connections:
       gte: 500
 
+known charms:
+  - mysql-innodb-cluster
+  - nrpe

@@ -1,0 +1,10 @@
+known charms:
+  - mysql-innodb-cluster
+subordinates: {}
+operations mandatory: []
+config:
+  mysql-innodb-cluster:
+    max-connections:
+      gte: 2000
+    innodb-buffer-pool-size:
+      gte: 6G
